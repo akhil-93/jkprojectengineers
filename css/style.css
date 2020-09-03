@@ -297,7 +297,7 @@ i.large {font-size: 43px;}
 .team h6 {font-size:13px; text-align: left; padding:0px 3px; font-weight: 600; line-height: 22px;  font-family: 'Bai Jamjuree', sans-serif;}
 
 
-.grid p {color:#1F1F1F; margin-top: 15px; font-size: 14px; text-align: justify;     font-family: 'Bai Jamjuree', sans-serif;}
+.grid p {color:#1F1F1F; margin-top: 15px; font-size: 14px; text-align: justify;  font-weight: 500;   font-family: 'Bai Jamjuree', sans-serif;}
 
 .team-details {text-align:center; padding:15px; }
 
