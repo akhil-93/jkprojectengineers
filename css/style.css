@@ -544,7 +544,7 @@ i.large {font-size: 43px;}
 	}
 	
 	.tank img {
-    height: 188px;
+    height: 190px;
 }
 
   .maint img {
@@ -552,7 +552,7 @@ i.large {font-size: 43px;}
 }
 	
   .duct img {
-    height: 155px;
+    height: 155px !important;
 }	
 	
 
