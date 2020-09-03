@@ -64,7 +64,7 @@ width: 100% !important;
 
 .name {color:#FF8C22;}
 
-.navbar-light .navbar-nav .active>.nav-link {color:#FF8C22;}
+.navbar-light .navbar-nav .active>.nav-link {color:##8a8aff;}
 
 .navbar {background-color: rgb(0,0,0,0.8); text-transform: uppercase; display: flex;
     justify-content: center; left:0; right:0; position: absolute; width: 100%; font-family: 'Lato', sans-serif; font-weight: 300; padding-left:60px; padding-right:60px;}
@@ -91,7 +91,7 @@ width: 100% !important;
 
 .contact-blk i.material-icons {color:#FF8C22;}
 
-a.get-quote {background: #FF8C22; padding: 8px 35px; color: #fff; font-size: 16px; margin-top:12px; border-radius: 50px; text-transform: uppercase !important;font-family: 'Kanit', sans-serif;
+a.get-quote {background: #8a8aff; padding: 8px 35px; color: #fff; font-weight: 600; font-size: 15px; margin-top:12px; border-radius: 50px; text-transform: uppercase !important;font-family: 'Kanit', sans-serif;
 }
 
 .quote {margin-top: 8px;}
@@ -157,7 +157,7 @@ a.get-quote {text-decoration:none;}
 	.section-details p {max-width: 500px;
 		padding-left: 50px; float: right;font-family: 'Bai Jamjuree', sans-serif; }
 
-.team .section-title {color:#FF8C22; font-size: 18px;}
+.team .section-title {color:#000; font-size: 18px;}
 
 .section-details {font-weight: bold; color:#000000; font-size: 15px;}
 
@@ -235,15 +235,23 @@ i.large {font-size: 43px;}
 .team-details p {font-size: 13px !important;}
 
 
-.abt-icons span.material-icons {background:#fff; color:#FF8C22; width:45px; font-size:20px; height:45px; padding-left:14px;padding-top:13px; border-radius:50px;}
+.abt-icons span.material-icons {background: #fff;
+    color: #404040;
+    width: 35px;
+    font-size: 20px;
+    height: 35px;
+    padding-left: 8px;
+    padding-top: 8px;
+    border-radius: 50px;
+}
 
 .line {background-color: blue; width: 60px; height: 4px;}
 
 .abt-text h4 {color:#fff; font-size:38px; padding-top:10px;font-family: 'Philosopher', sans-serif; }
 
-.abt-text small {color: #FF8C22; font-size:18px; font-family: 'Kanit', sans-serif;}
+.abt-text small {color: #ccc; font-size:18px; font-family: 'Kanit', sans-serif;}
 
-.abt-text color {color: #FF8C22;}
+.abt-text color {color: #8a8aff;}
 
 
 .abt-text small:after {
@@ -309,7 +317,7 @@ i.large {font-size: 43px;}
 
 .about-us {margin-top: 6%; overflow:hidden;}
 
-.know-btn {background-color: #FF8C22;   font-family: 'Bai Jamjuree', sans-serif;  padding: 8px 18px; font-size: 13px; margin-left:16px; margin-top: 20px; color: #fff; border-radius: 50px; border:none; }
+.know-btn {background-color: #8a8aff;   font-family: 'Bai Jamjuree', sans-serif; font-weight: 600; padding: 8px 18px; font-size: 13px; margin-left:16px; margin-top: 20px; color: #15144f; border-radius: 50px; border:none; }
 
 /* .service-blk {} */
 
@@ -334,7 +342,7 @@ i.large {font-size: 43px;}
 
 .gallery .section-details {padding-top: 45px;padding-bottom: 50px;color: #fff; text-align: center;}
 
-.view-btn {background-color:#ff8c22; padding: 8px 20px; color: #fff; margin-top: 25px;     font-family: 'Bai Jamjuree', sans-serif;   margin-bottom: 63px; font-size: 14px; border-radius: 50px; border:none;}
+.view-btn {background-color:#8a8aff; padding: 8px 20px; color: #15144f; margin-top: 25px;   font-weight: 600;  font-family: 'Bai Jamjuree', sans-serif;   margin-bottom: 63px; font-size: 14px; border-radius: 50px; border:none;}
 
 .video-sec {padding-top: 40px; background: url(../img/mediabg.png); background-position: left; background-repeat: no-repeat;}
 
@@ -474,7 +482,7 @@ i.large {font-size: 43px;}
 
 		.our-work {min-height:360px; padding-top:35px;padding-bottom:35px;font-family: 'Bai Jamjuree', sans-serif;  background:url('../img/ourwork.jpg'); background-size:cover; background-repeat: no-repeat; background-position: left;}
 
-.team p, h4 {color:#000; font-family: 'Bai Jamjuree', sans-serif; } 
+.team p, h4 {color:#404040; font-family: 'Bai Jamjuree', sans-serif; } 
 
 .tank img {height:203px;}
 .duct img {height:211px;}
