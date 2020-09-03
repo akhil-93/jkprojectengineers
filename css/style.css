@@ -542,7 +542,19 @@ i.large {font-size: 43px;}
 	.main-slider .slick-dots {
 		bottom: -60px;
 	}
+	
+	.tank img {
+    height: 188px;
+}
 
+  .maint img {
+    height: 190px;
+}
+	
+  .tank img {
+    height: 155px;
+}	
+	
 
 }
 
