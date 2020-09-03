@@ -552,7 +552,7 @@ i.large {font-size: 43px;}
 }
 	
   .duct img {
-    height: 155px !important;
+    height: 155px;
 }	
 	
 
@@ -611,6 +611,15 @@ i.large {font-size: 43px;}
 
 
 @media(max-width:991px){
+	
+.duct img {
+    height: auto;
+}
+	
+ .tank img {
+    height: auto;
+}	
+	
 
 	.grid h5 {
 		font-size: 45px;
