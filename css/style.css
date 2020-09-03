@@ -555,6 +555,16 @@ i.large {font-size: 43px;}
     height: 155px;
 }	
 	
+.abt-icons span.material-icons {
+    width: 25px;
+    font-size: 12px;
+    height: 25px;
+    padding-left: 6px;
+    padding-top: 5px;
+  
+}
+	
+	
 
 }
 
