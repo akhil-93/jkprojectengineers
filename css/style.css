@@ -523,7 +523,7 @@ i.large {font-size: 43px;}
 
 	.grid h5 {font-size:20px;}
 
-	.abt-icons .media-body h5 {font-size:14px; padding-top:12px;}
+	.abt-icons .media-body h5 {font-size:14px; padding-top:5px;}
 
     .abt-icons .media {
 	padding-top: 10px; padding-bottom: 0px;}
@@ -532,7 +532,9 @@ i.large {font-size: 43px;}
 
 	.abt-icons {top:56%;}
 
-	.know-btn {margin-top:0px;}
+	.know-btn {
+    margin-top: 16px;
+}
 
 	 .main-slider {
 		left: 115%;
