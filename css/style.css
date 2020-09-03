@@ -844,7 +844,12 @@ top:10%;
 @media(max-width:380px){
 
 
-	.abt-icons span.material-icons {    font-size: 10px; width: 35px; height: 35px;}
+	.abt-icons span.material-icons {   font-size: 18px;
+    width: 35px;
+    height: 35px;
+    padding-left: 8px;
+    padding-top: 8px;
+}
 
 	.contact-blk {
 		display: inline-block;
@@ -855,7 +860,13 @@ top:10%;
 
 	.contact-blk{margin-top: 12px;margin-bottom: 12px !important;}
 
-	.abt-text h4{font-size: 18px;}
+	.abt-text h4{font-size: 20px;}
+
+
+	.abt-icons .media {
+    padding-top: 13px;
+    padding-bottom: 0px;
+}
 
 	.abt-icons {
 		
@@ -872,6 +883,11 @@ top:10%;
 	}
 
 	.services {margin-top:0px; padding-top:40%;}
+
+	.about-txt p {
+    font-size: 13px;
+    line-height: 22px;
+}
 
 
 	.slick-dotted.slick-slider {
