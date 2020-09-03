@@ -476,7 +476,8 @@ i.large {font-size: 43px;}
 
 .team p, h4 {color:#000; font-family: 'Bai Jamjuree', sans-serif; } 
 
-
+.tank img {height:203px;}
+.duct img {height:211px;}
 
 /* Media Queries */
 
