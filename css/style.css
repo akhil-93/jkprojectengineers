@@ -1,887 +1,1116 @@
-/*@font-face {
-	font-family: SF Pro Text;
-	src: url(SF-Pro-Text-Regular.otf);
-  }
-*/
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-/*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');*/
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="css/style.css">
 
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
+<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 
+<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
 
-/*@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');*/
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<!--     <title>Hello, world!</title>
+ -->  </head>
+  <body>
 
 
+<div id="wrapper">
 
-body{list-style: none;
-	  text-decoration: none;
-	  margin:0 auto;
-	  font-family: 'Lato', sans-serif;
-	}
+<div class="logo-sec">
 
-		ul {list-style: none;}
+<div class="container">
 
+<div class="row">
 
-img {width:100%;}
+ <div class="col-md-2"> 
+   <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
 
+ </div>
 
+  <ul class="col-lg-10 list-unstyled contact-blk">
+    <li class="media">
+      <div class="nav-icon">
+        <i class="large material-icons">email</i>
 
-*{ 
+    </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">MAIL US TODAY</h5>
+        <p>jkprojectengineers@gmail.com</p>
+      </div>
+    </li>
+    <li class="media">
+      <div class="nav-icon">
+        <i class="large material-icons"> phone_iphone</i>
+       
 
-margin:0px;
+    </div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">CALL US NOW</h5>
+        <p>+9936124888, +9315137041</p>
+      </div>
+    </li>
+    <li class="media">
+      <div class="nav-icon">
+<i class="large material-icons">location_on
+</i>   
 
- }
+</div>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">OUR LOCATION</h5>
+        <p>35/9 - B Stanely Road,<br>
+          Prayagraj-211001(UP)</p>      </div>
+    </li>
+  </ul>
 
 
 
- .navbar-light .navbar-nav .nav-link {color:#fff; font-family: 'Kanit', sans-serif;
-cursor: pointer; text-transform: capitalize !important; font-size:16px;}
+<!-- <ul class="contact-blk ml-auto">
 
+<div class="nav-msg">
 
-video {
+ <li> 
+<img class="" src="img/nav-msg.png">
+</li>
 
-width: 100% !important;
 
-}
+<li class="">
+<h5>MAIL US TODAY</h5>
+<p>jkprojectengineers@gmail.com</p>
+</li>
 
-.video-container {width: 100%;
-}
+</div>
 
-.name {color:#FF8C22;}
 
-.navbar-light .navbar-nav .active>.nav-link {color:#8a8aff;}
 
-.navbar {background-color: rgb(0,0,0,0.8); text-transform: uppercase; display: flex;
-    justify-content: center; left:0; right:0; position: absolute; width: 100%; font-family: 'Lato', sans-serif; font-weight: 300; padding-left:60px; padding-right:60px;}
 
-.navbar-expand-lg .navbar-nav {}
+<div class="nav-mob">
+  
+ <li> 
+<img class="" src="img/nav-mob.png">
+</li>
 
-.navbar-brand img {width:110px;}
+<li><h5>CALL US NOW</h5>
+<p>+9936124888, +9315137041</p>
+</li>
 
-.navbar-brand {margin-right:82%;}
+</div>
 
-.contact-blk .media {padding-left: 32px;}
 
-.contact-blk {display: inline-block; margin-top: 20px; justify-content: flex-end; margin-bottom: 0px;  font-family: 'Lato', sans-serif; }
+<div class="nav-map">
+<li>
+  <img class="" src="img/nav-map.png">
+</li>
+
+<li>
+<h5>OUR LOCATION</h5>
+<p>35/9 - B Stanely Road,
+  Prayagraj-211001(UP)</p>
+</li>
+</div>
+
+
+</ul> -->
+
+
+</div>
+
+
+</div>
+
+</div>
+
+
+<nav style="max-width:1090px; margin:0 auto;" class="navbar navbar-expand-lg navbar-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">GALLERY</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">MEDIA</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>
+      <li class="nav-item quote">
+        <a id="disable" class="get-quote" href="#" >GET QUOTE</a>
+      </li>
+    </ul>
+   
+  </div>
+</nav>
+
+
+    <!-- <h1>Hello, world!</h1> -->
+
+<section class="show">
+
+<div class="video-container">
+
+<video style="width: 100%;" src="Pexels Videos 898979.mp4" autoplay muted loop>
+  </video>
+
+</div>
+
+<!-- <div class="content">
+
+<h1>JK Engineers</h1>
+<p>Landing pge</p>
+</div> -->
+</section>
+
+
+
+
+<!--about section-->
+
+<section class="about-us">
+  
+
+  <div class="row">
+  
+  
+  <div class="col-lg-6 col-md-12 about-img" style="padding-left: 10px; padding-right: 0px;">
+  
+  <img src="img/abt0.png" title="">
+  </div>
+  
+  
+  <div class="col-lg-6 col-md-12 about-txt" style="padding-left: 0px; padding-right: 10px;">
+  
+  
+    <img src="img/abt-bg.png"/>
+  
+  
+  
+  <div class="about-text-blk">
+  
+  
+  
+    <div data-aos="fade-left" data-aos-duration="1800" class="col-lg-12 abt-text">
+  
+  <small>ABOUT US</small>
+  
+  <h4 data-aos="fade-left" data-aos-duration="1500">Welcome to <color>J K Project Engineers</color>,
+    A combination of superior services 
+    and quality end-products.
+    </h4>
+  
+  <p>As a pioneering steel fabrication unit, the emphasis is always on the
+    achievements of four indispensable goals. The individualized care and unwavering attention that we bring to all our projects are deciding
+    factors in why our clients always choose us.</p>
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  <div data-aos="fade-left" data-aos-duration="1500" class="abt-icons">
+  
+  
+  
+  
+    <div class="col-lg-5 col-md-5 media">
+  
+      <span class="material-icons">
+        thumb_up
+        </span>
+  
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Customer satisfaction</h5>
+      </div>
+    </div>
+  
+    <div class="col-lg-5 col-md-5 media">
+  
+      <span class="material-icons">
+star_rate
+</span>
+  
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">High quality of products
+          and services</h5>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+    <div class="col-lg-5 col-md-5 media">
+  
+      <span class="material-icons">
+payments
+</span>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Offer the most competitive 
+          price for our customer</h5>
+      </div>
+    </div>
+  
+  
+  
+    <div class="col-lg-5 col-md-5 media">
+  
+  
+     <span class="material-icons">
+watch_later
+</span>
+  
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Timely delivery</h5>
+      </div>
+    </div>
+  
+  
+  <div class="col-12">
+    <button data-aos="fade-left" data-aos-duration="1500" class="know-btn">KNOW MORE</button>
+  </div>
+  
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  </div>
+  
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  </section>
+
+
+<section class="feature-grid">
 
-.contact-blk h5 { font-weight: 600; color:#15144F;font-size: 16px;font-family: 'Kanit', sans-serif;
+<div class="container">
 
-}
+<div class="row">
 
-.contact-blk p { font-weight: 360; font-size:13px; color:#000000;font-family: 'Bai Jamjuree', sans-serif;
+<div data-aos="fade-down" data-aos-duration="2000" class="col-lg-4 col-sm-12 grid">
+
+<img src="img/abt1.png"/>  
+
+<h5>Established in <br><strong>1980</strong></h5>
+
+<p>JKPE is a highly diversified, multidisciplinary contractor & one
+  of the best tank fabricator in the industry. Our team has earned its place in today’s competitive
+  market through our combination of core believes and superior services and quality end products.
+  </p>
 
-}
+</div>
 
-.navbar-nav li {padding-left: 25px; color:#fff; font-size:15px;}
 
-.contact-blk i.material-icons {color:#FF8C22;}
 
-a.get-quote {background: #8a8aff; padding: 8px 35px; color: #fff; font-weight: 600; font-size: 15px; margin-top:12px; border-radius: 50px; text-transform: uppercase !important;font-family: 'Kanit', sans-serif;
-}
+<div data-aos="fade-down" data-aos-duration="1000" class="col-lg-4 col-sm-12 grid">
+
 
-.quote {margin-top: 8px;}
+  <img src="img/abt2.png"/>  
 
-.feature-grid {margin-top: 50px; margin-bottom: 20px;}
+<h5>Crew of Skilled<strong> Professionals</strong></h5>
 
+<p>Our crew of skilled and experienced professionals combined with our unparalleled dedication
+  and complete client focus have been sure a way to make every project a success.Quality first is our focus to deliver highest with and deliver complete
+  Customer Satisfaction.</p>
 
-.main-slider {width:100%; max-width: 420px; min-height:260px; padding:10px; top: 60px; border:10px solid #15144f; display: flex;
-    position: absolute;
-    /* right: 0; */
-    /* margin-left: auto; */
-    left:36%;}
-/* 
-.main-slider .slick-slider {} */
+</div>
 
-a.get-quote {text-decoration:none;}
 
-.main-slider .slick-dots li {list-style: none; display: inline-block;}
 
-.main-slider .slick-dots {bottom:-50px;}
 
-.video-txt p {color:#000000; width:500px; font-family: 'Bai Jamjuree', sans-serif;}
+<div data-aos="fade-down" data-aos-duration="800" class="col-lg-4 col-sm-12 grid">
 
-.video-wrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
-}
-.video-wrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  <img src="img/abt3.png"/>  
 
-}
+  <h5>One of the Best <br> <strong> Tank Fabricators</strong></h5>
+<p>The individualized care and unwavering attention that we bring to all our projects are deciding
+  factors in why our clients always choose us.JK Project Engineers is proud to be headed by him and definitely looks forward to
+  achieving great heights.</p>
 
+</div>
 
 
-.section-title small:after {
-	content: ' \2014';
-	color:#15144F;
-	padding-left:6px;
-  }
 
+</div>
 
-.slick-dots li.slick-active button:before {
-    opacity: .75;
-    color: #15144f;
-}
 
-.service-blk {text-align: left; margin-bottom:30px;}
+</div>
 
-.service-text{padding:15px;}
+</section>
 
-.service-blk p {font-size: 14px; font-weight:500;text-align:justify; font-family: 'Bai Jamjuree', sans-serif;}
 
-.service-blk h4 {color:#15144F; font-family: 'Kanit', sans-serif; font-weight: 600;}
 
-  .section-title h4 {color:#15144F; font-weight: bold; font-size: 30px; font-family: 'Philosopher', sans-serif;}
 
-.section-title small {font-size: 18px; font-family: 'Kanit', sans-serif;}
 
-.section-title, .section-details {color:#fff; margin-top:16px; 
-	float: right;  padding-top:53px;margin-bottom: 45px; }
-	
-	.section-details p {max-width: 500px;
-		padding-left: 50px; float: right;font-family: 'Bai Jamjuree', sans-serif; }
 
-.team .section-title {color:#000; font-size: 18px;}
+<!--service section-->
+<section class="services">
 
-.section-details {font-weight: bold; color:#000000; font-size: 15px;}
+<div class="container">
 
+<div class="row">
+  
 
- .video-txt {padding-top:26px;}
- .video-sec, .section-title {padding-top:50px;}
-.video-sec .section-title small {color:#000;font-family: 'Bai Jamjuree', sans-serif; }
-}
+  <div data-aos="fade-right" data-aos-duration="1800" class="col-lg-5 section-title">
 
-.footer h4 {font-size:20px; color:#fff !important; }
+    <small>WHAT WE DO</small>
 
-.footer-end p {font-family: 'Bai Jamjuree', sans-serif;}
+    <h4>Our Key Services
+    </h4>
 
 
+  </div>
 
-.video-sec .section-title h4 {color:#15144F;font-family: 'Philosopher', sans-serif;}
+  <div data-aos="fade-left" data-aos-duration="1800" class="col-lg-7 section-details">
 
- .video-txt .view-btn {margin-top: 40px;}
+    <p>JK Project
+      Engineers deals in technically specialised and diversified structural work and increasing its reach in the steel fabrication and erection industry exponentially</p>
 
 
-.list-unstyled {display: inline-flex;}
+  </div>
 
-.nav-icon {padding-right: 10px;}
-.nav-msg h5 {font-size: 15px;}
-.nav-msg p {font-size: 13px;}
-.nav-msg img {margin-top: -10px;}
-.nav-mob {width: 120px;}
-.nav-mob h5 {font-size: 15px;}
-.nav-mob p {font-size: 13px;}
-.nav-map {width: 120px; }
-.nav-map h5 {font-size: 15px;}
-.nav-map p {font-size: 13px;}
 
-.grid h5 {    position: absolute;
-    top: 0px;
-	padding-top: 18px;
-	font-family: 'Kanit', sans-serif;
-	padding-left: 25px;
-	color:#fff;	
-	font-size: 25px;
-letter-spacing: 2px;}
+<div data-aos="fade-down" data-aos-duration="800" class="col-lg-4 service-blk">
+<img src="img/proj.png">
 
+<div class="service-text">
+ <h4>PROJECT WORK</h4> 
+<p>Different types of Project works
+  are done with honesty and integrity keeping clients interest</p>
+</div>
+</div>
 
-.navbar-toggler {z-index: 999; }
 
-.navbar-light .navbar-toggler{color: #fff; border-color: #fff;}
+<div data-aos="fade-down" data-aos-duration="1000" class="col-lg-4 service-blk">
+  <img src="img/maint.png">
 
-.feature-grid {margin-top: 35px; margin-bottom: 40px;}
+<div class="service-text">  
+  <h4>MAINTENANCE JOBS</h4>
+<p>All kinds of Maintenance jobs are
+  done with honesty and integrity
+  </p>
+</div>
+</div>
 
-i.large {font-size: 43px;}
 
-.about-txt {font-family: 'Lato', sans-serif; padding-top: 15px; }
 
-.about-txt p {padding-bottom:35px ; font-family: 'Bai Jamjuree', sans-serif; color:#fff; font-weight: 100; line-height: 25px; font-size: 14px;}
+<div data-aos="fade-down" data-aos-duration="2000" class="col-lg-4 service-blk tank">
 
-.about-txt img {padding-top: 12px; min-height: 55%;
- height: 92%;}
+  <img src="img/tank.png">
+<div class="service-text">
+  <h4>TANK & VESSELS</h4>
+<p>Fabrication, Erection & Commissioning of new MS/SS Tank
+ </p>
+</div>
+</div>
 
-.about-text-blk {    display: flex;font-family: 'Lato', sans-serif;
-    position: absolute;
-	top: 60px;}
-	
-.abt-icons .media { display:inline-flex; margin-right: 45px;  padding-bottom:18px;}	
 
-.abt-icons .media-body h5 {font-size:16px;color:#fff; padding-top: 13px; font-family: 'Kanit', sans-serif; padding-left:15px; font-style: italic; font-weight: 400;}
 
-.abt-icons{position: absolute;
-	top: 54%;
-	padding-bottom:18px;
-}
+<div data-aos="fade-down" data-aos-duration="2000" class="col-lg-4 service-blk">
+<img src="img/piping.png">
+<div class="service-text">
+  <h4>PIPING</h4>
+<p>Fabrication & erection of CS/SS/AS</p>
+</div>
+</div>
 
-.owl-theme .owl-nav {display:none;}
 
 
-.team-details p {font-size: 13px !important;}
+<div data-aos="fade-down" data-aos-duration="2000" class="col-lg-4 service-blk duct">
 
+<img src="img/duct.png">
+<div class="service-text">
+  <h4>DUCTING</h4>
+<p>Fabrication & Erection of CS/SS ducting.</p>
+</div>
+</div>
 
-.abt-icons span.material-icons {background: #fff;
-    color: #676767;
-    width: 35px;
-    font-size: 20px;
-    height: 35px;
-    padding-left: 8px;
-    padding-top: 8px;
-    border-radius: 50px;
-}
 
-.line {background-color: blue; width: 60px; height: 4px;}
 
-.abt-text h4 {color:#fff; font-size:38px; padding-top:10px;font-family: 'Philosopher', sans-serif; }
 
-.abt-text small {color: #ccc; font-size:18px; font-family: 'Kanit', sans-serif;}
 
-.abt-text color {color: #8a8aff;}
 
 
-.abt-text small:after {
-	content: ' \2014';
-	color:#fff;
-	padding-left:6px;
-  }
 
-.abt-text { padding:15px;}
+</div>
 
-.services {background-image: url('../img/serv-bg.png');
-			background-size: cover;
-			/* background-position:right; */
-			min-height: 1120px;
-			padding-top: 10%;
-			margin-top: 55px;
 
+</div>
 
-}
+</section>
 
 
-.services .section-title h4 {color:#fff; font-family: 'Philosopher', sans-serif;}
 
 
-.services .section-details p {color:#fff; font-family: 'Bai Jamjuree', sans-serif;}
+<!--team section-->
 
 
 
-.team {background-image: url('../img/team-bg0.png');
-	background-size: cover;
-	min-height: 365px;
-	padding-top:15px;
-	/*background-size: contain;*/
-	background-repeat: no-repeat;
-	padding-bottom: 80px;
+<section class="team">
 
+  
+  <div class="container">
 
-}
 
 
-.gallery {background-image: url('../img/glry-bg.png');
-	background-size: cover;
-	min-height: 705px;
-	padding-top:35px;
-	    padding: 8px 18px;
+  <div class="row">
 
 
-}
+  <div data-aos="fade-right" data-aos-duration="1800" class="col-lg-4 section-title">
 
+    <small>OUR STRENGTH</small>
 
-.team h6 {font-size:13px; text-align: left; padding:0px 3px; font-weight: 600; line-height: 22px;  font-family: 'Bai Jamjuree', sans-serif;}
+    <h4>Meet Our Team
+    </h4>
 
 
-.grid p {color:#1F1F1F; margin-top: 15px; font-size: 14px; text-align: justify;  font-weight: 500;   font-family: 'Bai Jamjuree', sans-serif;}
+  </div>
 
-.team-details {text-align:center; padding:15px; }
+  <div data-aos="fade-left" data-aos-duration="1800" class="col-lg-8 section-details">
 
+    <p>Our team has earned its place in today’s competitive market through a combination of core beliefs and superior services.</p>
 
-.team-details h4 {color:#15144F;     
-    padding-top: 13px; font-size: 18px; font-weight: 600; font-family: 'Kanit', sans-serif;}
 
-.feature-grid {padding-top: 6%; background:#d8d4ff; padding-bottom:5%;}
+  </div>
 
-.about-us {margin-top: 6%; overflow:hidden;}
 
-.know-btn {background-color: #8a8aff;   font-family: 'Bai Jamjuree', sans-serif; font-weight: 600; padding: 8px 18px; font-size: 13px; margin-left:16px; margin-top: 20px; color: #15144f; border-radius: 50px; border:none; }
 
-/* .service-blk {} */
+<div data-aos="fade-left" data-aos-duration="2800" class="owl-carousel owl-theme" id="owl-one">
 
-.service-text {background-color: #fff;}
+  <div class="team-slider"><img src="img/rbprasad.png"> 
+  
+    <div class="team-details"><h4>R.B. Prasad </h4><p>(Chairman)</p>
 
-.team .owl-carousel {max-width:1100px;}
 
-.team .owl-carousel img {max-width: 250px;}
+<h6>Qualification: BTech - Mechanical NIT Jamshedpur<br>
+Experience: 40+ years of Fabrication & Erection work<br>
+</h6>
 
-.owl-carousel.owl-drag .owl-item {width:360x; margin-right: 0px;}
 
-.our-work, .owl-carousel.owl-drag, .owl-item {/*background:rgb(0,0,0,0.8);*/ border:2px solid #fff}
+    </div>
+  
+  </div>
+  
 
+  <div class="team-slider"> <img src="img/kunalprasad.png">
+  
+    <div class="team-details"><h4>Kunal Prasad</h4> <p>(Proprietor)</p>
 
-.gallery .section-title {padding-top:43px;padding-bottom: 10px; color: #fff; text-align: center; float: left;
-    max-width: initial;
-}
+<h6>Qualification: MSc Finance UCD Dublin, Ireland<br>
+Profile: Excel in efficient management of company<br>
+</h6>
 
-.gallery .section-title h4 {color:#fff;}
 
-.gallery p {font-family: 'Bai Jamjuree', sans-serif;}
+    </div>
+  
+  </div>
+  
 
-.gallery .section-details {padding-top: 45px;padding-bottom: 50px;color: #fff; text-align: center;}
+  <div class="team-slider"> <img src="img/vinodagarwal.png"> 
+  
+    <div class="team-details"><h4>Vinod Kumar Agarwal</h4> <p>(Technical Advisor)</p>
 
-.view-btn {background-color:#8a8aff; padding: 8px 20px; color: #15144f; margin-top: 25px;   font-weight: 600;  font-family: 'Bai Jamjuree', sans-serif;   margin-bottom: 63px; font-size: 14px; border-radius: 50px; border:none;}
 
-.video-sec {padding-top: 40px; background: url(../img/mediabg.png); background-position: left; background-repeat: no-repeat;}
+<h6>Qualification: MTech - Mechanical<br>
+Experience: 40 years of rich industry experience<br>
+</h6>
 
-
-.navbar-light .navbar-toggler-icon {background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}
-
-
-.slick-dots li button:before {border-radius: 50px !important; background-color: #ccc;}
+    </div>
+  
+  </div>
  
 
-.slick-dots {bottom: -45px;}
-
- li.slick-active {
-	background-color:#15144f !important; border-radius: 50px !important;
-} 
-
-.footer {background: url(../img/foot-bg.png); padding-top: 50px; margin-top: 50px; background-repeat: no-repeat; background-position: left; color: #fff; background-size: cover; min-height: 300px;}
-
-.footer-links ul {padding:0px;  font-family: 'Bai Jamjuree', sans-serif;}
-
-.footer p {font-size:14px; float:left;  font-family: 'Bai Jamjuree', sans-serif;}
-
-.footer-end {background:#1F1F1F; color:#fff; min-height: 50px; padding-top:13px; font-size: 13px;
-    position: absolute;
-    width: 100%;
-}
-
-.footer img {width:16px; float:left;}
-
-.footer h5 {font-family: 'Kanit', sans-serif; }
-
-.team-slider{}
-
-.team-slider, .owl-item { background:#fff; padding: 15px;}
-
-.team-slider, .owl-carousel {padding:0px;  text-align: -webkit-center;}
-.our-work, .owl-carousel.owl-drag, .owl-item {border:none;}
-
-
-.glry {
-	position: relative;
-
-  }
-
-.quote {}
-
-
-.owl-theme .owl-dots .owl-dot span {
-    width: 15px;
-    height: 15px;
-    margin: 5px 7px;
-    background:none;  
-	display: block;
-	border:solid 2px #FF8C22;
-    -webkit-backface-visibility: visible;
-    transition: opacity .2s ease;
-    border-radius: 30px;
-}
-
-.owl-theme .owl-controls .owl-page {
-    display: inline-block;
-}
-.owl-theme .owl-controls .owl-page span {
-    background: none repeat scroll 0 0;
-	border-radius: 20px;
-	border:solid 2px #FF8C22;
-    display: block;
-    height: 12px;
-    margin: 5px 7px;
-    opacity: 0.5;
-    width: 12px;
-}
+  <div class="team-slider"> <img src="img/akmishra.png"> 
   
-.overlay {
-	position: absolute; 
-	bottom: 0; 
-	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.5); /* Black see-through */
-	color: #f1f1f1; 
-	width: 100%;
-	transition: .5s ease;
-	opacity:0;
-	color: white;
-	font-size: 20px;
-	padding-top: 110%;
-	height: 100%;
-	text-align: center;
-  }
+    <div class="team-details"><h4>A.K. Mishra </h4><p>(Human Resource Manager)</p>
+
+
+<h6>Qualification: MBA<br>
+Experience: 25 years of experience in Human
+Resource Development <br>
+</h6>
+
+    </div>
   
-  .glry:hover .overlay {
-	opacity: 1;
-  }
+  </div>
 
 
-  /* latest Changes */
 
-  .navbar-nav .active{color:#FF8C22;}
+  <!-- <div> Your Content </div> -->
 
-  .owl-theme .owl-dots .owl-dot.active span, {background:none;}
 
-  .navbar {z-index: 999;}
+</div>
 
- .logo {text-align: -webkit-center;
-  margin: 0 auto;}
+
+</div>
+
+</div>
+
+</section>
+
+<!--gallery section-->
+<section class="gallery">
+  
+<div class="container">
+
+  <div data-aos="fade-down" data-aos-duration="1800" class="col-lg-4 section-title mx-auto">
+
+
+    <h4>Our Gallery
+    </h4>
+
+    <p>Explore Our Completed Projects</p>
+
+  </div>
+
+<div class="row">
+
+
+
+
 
   
 
-  .about-banner {background:url('../img/abt-bnr.png'); min-height: 280px; background-size: cover; background-repeat: no-repeat;}
-
-  .about-banner h5 {padding-top: 36%;
-    color: #fff;}
-
-	.about-banner li {color:#fff; padding-top: 26%;  display: inline-block;}
-
-	.about-banner li a {text-decoration: none; color:#fff; }
-
-	.features {padding-top:10%}
+  <div data-aos="fade-down" data-aos-duration="2500" class="col-lg-4 col-md-12">
+        
+    <figure class="glry">
+        <a class="d-block mb-4" data-fancybox="gallery" href="img/img10.png" data-width="" data-height="">
+            <img class="img-fluid" src="img/thumb0.png">
+        </a>
+        
+    </figure>
 
 
-	.features {background: url('../img/dotline.png');
-		background-repeat: no-repeat; 
-		background-size: cover; 
-		background-position: left;
-	    min-height:500px; 
-	}
-
-
-	.about-section {min-height:800px; 
-		background:url('../img/abt-us.png');
-		 background-size:cover; 
-		background-repeat: no-repeat;}
-
-
-		.about-section p {}
+</div>
 
 
 
-		.our-work {min-height:360px; padding-top:35px;padding-bottom:35px;font-family: 'Bai Jamjuree', sans-serif;  background:url('../img/ourwork.jpg'); background-size:cover; background-repeat: no-repeat; background-position: left;}
-
-.team p, h4 {color:#404040; font-family: 'Bai Jamjuree', sans-serif; } 
-
-.tank img {height:203px;}
-.duct img {height:211px;}
-
-/* Media Queries */
 
 
-@media(min-width:1600px){
+<div data-aos="fade-down" data-aos-duration="2500" class="col-md-12 col-lg-4">
+        
+  <figure>
+      <a class="d-block mb-4" data-fancybox="gallery" href="img/img1.png" data-width="" data-height="">
+          <img class="img-fluid" src="img/thumb1.png">
+      </a>
+      <!-- <figcaption>
+          <h6>Rocky mountain under blue and white sky</h6>
+          <a href="">Photo by Guillaume Briard</a>
+      </figcaption> -->
+  </figure>
 
+  <figure>
+      <a class="d-block mb-4" data-fancybox="gallery" href="img/img2" data-width="1279" data-height="853">
+          <img class="img-fluid" src="img/thumb2.png">
+      </a>
+      <!-- <figcaption>
+          <h6>Vaihingen an der Enz, Germany</h6>
+          <a href="">Photo by Oliver Roos</a>
+      </figcaption> -->
+  </figure>
 
-	.abt-icons .media-body h5 {font-size:20px;}
-	.abt-text h4 {font-size:40px;}
-
-	.service-text{margin-bottom: 35px;}
-
-	.services{padding-top:6%;}
-
-	.about-txt p {padding-top: 16px; font-size: 25px;}
-
-
-}
-
-
-@media (max-width:1320px ){
-
-
-	.navbar-brand {margin-right:1rem;}
-
-	.abt-text h4 {
-		color: #fff;
-		font-size: 30px;
-		
-	}
-
-	.abt-icons .media{padding-bottom: 10px;}
-
-	.abt-icons {top:56%;}
-
-}
+</div>
 
 
 
-@media (max-width:1199px ){
+<div data-aos="fade-down" data-aos-duration="2500" class="col-md-12 col-lg-4">
+        
+  <figure>
+      <a class="d-block mb-4" data-fancybox="gallery" href="img/img4.png" data-width="" data-height="">
+          <img class="img-fluid" src="img/thumb3.png">
+      </a>
+      <!-- <figcaption>
+          <h6>Rocky mountain under blue and white sky</h6>
+          <a href="">Photo by Guillaume Briard</a>
+      </figcaption> -->
+  </figure>
 
-	.team .owl-carousel {max-width:900px;}
+  <figure>
+      <a class="d-block mb-4" data-fancybox="gallery" href="img/img6.png" data-width="1279" data-height="853">
+          <img class="img-fluid" src="img/thumb4.png">
+      </a>
+      <!-- <div class="overlay">
+        <h6>Rocky mountain under blue and white sky</h6>
+        
+    </div> -->
+  </figure>
 
-	.grid h5 {font-size:20px;}
+</div>
 
-	.abt-icons .media-body h5 {font-size:14px; padding-top:5px;}
 
-    .abt-icons .media {
-	padding-top: 10px; padding-bottom: 0px;}
-	
-	.abt-text h4 {font-size:30px;}
-
-	.abt-icons {top:56%;}
-
-	.know-btn {
-    margin-top: 16px;
-}
-
-	 .main-slider {
-		left: 115%;
-		top: -115%;
-	 }
-
-	.main-slider .slick-dots {
-		bottom: -60px;
-	}
-	
-	.tank img {
-    height: 190px;
-}
-
-  .maint img {
-    height: 190px;
-}
-	
-  .duct img {
-    height: 155px;
-}	
-	
-.abt-icons span.material-icons {
-    width: 25px;
-    font-size: 12px;
-    height: 25px;
-    padding-left: 6px;
-    padding-top: 5px;
+<div data-aos="fade-down" data-aos-duration="2500" class="mx-auto">
+  <button class="view-btn">VIEW ALL</button>
+  </div>
   
-}
-	
-	
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+</section>
+
+
+
+
+<div class="container">
+
+<section class="video-sec">
+  
+  <div class="row">
+
+    
+
+  <div data-aos="fade-right" data-aos-duration="2800" class="section-title">
+
+    <small>OUR MEDIA</small>
+
+    <h4>Explore Our Videos
+
+
+    </h4>
+
+
+    <div class="video-txt">
+
+      <p>Have a view about JK Project Engineers
+        working and project videos</p>
+      
+      
+        <div class="">
+          <button class="view-btn">VIEW ALL</button>
+          </div>
+      
+      </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="col-lg-6 col-md-12 video-blk">
+
+
+<div class="owl-two owl-carousel ow owl-theme"> 
+        
+    <div class="item-video" data-merge="1"><a class="owl-video" href="https://youtu.be/uWnKsQPJc04"></a></div>
+    <div class="item-video" data-merge="1"><a class="owl-video" href="https://youtu.be/uWnKsQPJc04"></a></div>
+    <div class="item-video" data-merge="1"><a class="owl-video" href="https://youtu.be/uWnKsQPJc04"></a></div>
+    <div class="item-video" data-merge="1"><a class="owl-video" href="https://youtu.be/uWnKsQPJc04"></a></div>
+    <div class="item-video" data-merge="1"><a class="owl-video" href="https://youtu.be/uWnKsQPJc04"></a></div>
+    <div class="item-video" data-merge="1"><a class="owl-video" href="https://youtu.be/uWnKsQPJc04"></a></div>
+    <div class="item-video" data-merge="1"><a class="owl-video" href="https://youtu.be/uWnKsQPJc04"></a></div>
+</div> 
+    
+
+
+
+
+
+
+
+</div> -->
+
+
+
+<div data-aos="fade-left" data-aos-duration="2800" class="col-lg-6 col-md-12">
+<div class="main-slider" id="main-slider">
+            <div>
+                <div class="video-wrapper">
+                  <iframe width="420" height="315" src="Pexels Videos 898979.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div>
+                <div class="video-wrapper">
+                  <iframe width="420" height="315" src="https://www.youtube.com/embed/8gJxHxfDZ48" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                </iframe>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+
+
+
+<!-- <section class="contact-btn">
+
+<div class="container">
+
+<h4></h4>
+<p></p>
+
+<button class=""></button>
+
+
+
+</div>
+
+</section> -->
+
+
+
+
+<section class="footer">
+
+<div class="container">
+
+<div class="row">
+
+
+<div data-aos="fade-right" data-aos-duration="500" class="col-lg-3 footer-content footer-about">
+
+  <h4 style="color:#fff; font-size: 14px; font-weight:600;">JK PROJECT ENGINEERS</h4>
+  <p>Established on 12th February 2016, JKPE is a highly diversified, multidisciplinary contractor & one of the best tank fabricator in the industry.</p>
+  
+  
+
+
+</div>
+
+
+<div data-aos="fade-right" data-aos-duration="800" class="col-lg-3 footer-content footer-links">
+
+  <h5>QUICK LINKS</h5>
+
+  <ul>
+  
+
+
+  <li><img src="img/arrow.png">Home</li>
+  <li><img src="img/arrow.png"> About us</li>
+  <li><img src="img/arrow.png"> Gallery</li>
+  <li><img src="img/arrow.png"> Media</li>
+  <li><img src="img/arrow.png"> Contact us</li>
+  
+  
+  </ul>
+  
+
+
+
+</div>
+
+
+<div data-aos="fade-down" data-aos-duration="1000" class="col-lg-3 footer-content footer-contact">
+
+  <h5>CONTACT</h5>
+
+  <img src="img/phone.png"><p> +91 9936124888 <br>+91 9315137041</p>
+
+</div>
+
+<div data-aos-duration="1500" class="col-lg-3 footer-content footer-address">
+
+  <h5>ADDRESS</h5>
+<p><img src="img/map.png"> 35/9 - B  Stanely Road,
+  Prayagraj - 211001(U.P)</p>
+
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+</section>
+
+<div data-down="fade-down" data-aos-duration="2100" class="footer-end">
+<div class="container">
+
+<p>© Copyright JKProject Engineers 2020. All right reserved.
+
+</p>
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+</div> <!-- wrapper ends -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   
+
+
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>   
+
+<!-- <script src="js/script.js"></script>
+
+
+ -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+
+
+<script>
+  
+
+  $(document).ready(function(){
+
+
+
+  $("#owl-one").owlCarousel({
+    loop:true,
+    margin:10,
+    dots:true,
+    autoplay:true,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        },
+
+        1366:{
+            items:4
+        }
+    }
+})
+
+  });
+
+// $('[data-fancybox="gallery"]').fancybox({
+//   // Options will go here
+// });
+
+
+</script>
+
+
+
+<script src="js/slick.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+ 
+<script>
+  
+
+  var tag = document.createElement('script');
+        tag.id = 'iframe-demo';
+        tag.src = 'https://www.youtube.com/iframe_api';
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        var player;
+        function onYouTubeIframeAPIReady() {
+            var elems1 = document.getElementsByClassName('yt-player');
+            for(var i = 0; i < elems1.length; i++) {
+                
+                player = new YT.Player(elems1[i], {
+                    events: {
+                        //'onReady': onPlayerReady,
+                        'onStateChange': onPlayerStateChange
+                    }
+                });
+            }
+        }
+        function onPlayerReady(event) {
+            
+        }
+        function handleVideo(playerStatus) {
+            if (playerStatus == -1) {
+                // unstarted
+                $('#main-slider').slick('slickPause');
+            } else if (playerStatus == 0) {
+                // ended
+                $('#main-slider').slick('slickPlay');
+                
+            } else if (playerStatus == 1) {
+                // playing = green                
+                $('#main-slider').slick('slickPause');                
+            } else if (playerStatus == 2) {
+                // paused = red
+                $('#main-slider').slick('slickPlay');
+            } else if (playerStatus == 3) {
+                // buffering = purple
+            } else if (playerStatus == 5) {
+                // video cued
+            }
+        }
+        function onPlayerStateChange(event) {
+            handleVideo(event.data);
+        }
+
+
+
+$('#main-slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      dots: true,
+      infinite: true,
+      adaptiveHeight: true,
+      arrows: false
+  });
+  
+  var video = $('#main-slider .slick-active').find('iframe').get(0).play();
+
+  $('#main-slider').on('afterChange', function(event, slick, currentSlide, nextSlide){
+    $('#main-slider .slick-slide').find('video').get(0).pause();
+    var video = $('#main-slider .slick-active').find('video').get(0).play();
+});
+
+
+
+</script>
+
+
+
+
+<script>
+
+
+  $(document).ready(function(){
+
+$('#disable').click(function({
+
+
+alert('This button is disabled now')
+
+
+
+}))
+
+
+
 
 }
 
+  
+</script>
 
 
-@media(max-width:1120px){
 
+<script src="js/owl.carousel.js"></script>
 
-	.video-sec .section-title {margin-left:10px;}
+<script src="js/owl.carousel.min.js"></script>
 
-	.video-sec {padding-top: 0px;}
 
-	
-	.abt-icons{display: table; top:57%;}
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-	.abt-icons .media-body h5 {
-		font-size: 13px;
-	}
 
-	.abt-icons .media {padding-top:0px;}
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+ -->
 
-	.abt-text h4 {font-size:26px;}
-	
-	.knw-btn {margin-top:15px;}
 
-	.about-txt p {font-size: 13px; line-height: 20px;}
-	
-}
 
 
 
-@media(max-width: 1065px) {
 
-	.abt-icons{display: table; top:56%; }
-
-	.about-txt p {font-size: 12px; line-height: 18px;}
-
-	.abt-text h4 {font-size:24px;}
-
-
-	.abt-icons .media {margin-right:0px;}
-
-	.abt-icons .media-body h5 {
-		font-size: 12px;
-	}
-
-	.know-btn {
-		margin-top: 15px;
-	}
-
-	.main-slider {min-height: auto;
-
-}
-
-
-@media(max-width:991px){
-	
-.duct img {
-    height: auto;
-}
-	
- .tank img {
-    height: auto;
-}	
-	
-
-	.grid h5 {
-		font-size: 45px;
-		
-	}
-
-
-	.navbar-brand {    display: flex;
-		justify-content: center;
-		left: 0;
-		right: 0;
-		position: relative;}
-	
-	.abt-text {
-		padding: 55px;
-	}
-
-
-	.abt-icons{padding: 50px;}
-
-
-	.abt-icons {
-		
-		top: 36%;
-	}
-
-	.abt-icons .media-body h5 {
-		font-size: 23px;
-	}
-
-	.section-details p {max-width:1000px !important;
-		padding-left: 50px;
-		padding-top: 0px;
-		padding-bottom: 30px;
-		padding-left:0px;
-		float: left;}
-
-		.section-title, .section-details {
-			margin-top: 0px;
-			float: left;
-			padding-top: 20px;
-			margin-bottom: 0px;
-			font-family: SF Pro Text;
-		}
-
-		.quote {margin-bottom:15px;}
-		.grid {margin-bottom: 25px;}
-
-		.service-blk {margin-bottom: 50px;}
-
-		.knw-btn {margin-top: 25px;}
-		
-		.video-sec, .section-title{margin-left:0px;}
-
-		.services {
-			background-repeat: no-repeat;
-			background-size: cover;
-		}
-
-
-		.contact-blk p {max-width:150px;}
-
-		.main-slider {
-	left: 0;
-	max-width:1000px;
-top:10%;
-
-
-}
-
-
-.slick-dotted.slick-slider {
-    margin-bottom: 23% !important;
-}
-
-.footer-content ul {padding:0px;}
-.footer img {
-     float: left;
-}
-
-.footer-content {margin-bottom: 20px;}
-
-
-.navbar-expand-lg .navbar-nav {text-align: center;}
-
-}
-
-
-@media(max-width:767px){
-
-.quote {margin-bottom:15px;}
-.navbar-nav li {text-align:center}
-
-	.video-txt p {width:auto;}
-	.about-txt img{width: 100%;}
-	.about-text-blk{top:10px;}
-	.services{background-size: cover;}
-	.about-txt{min-height: 650px;}
-	.abt-icons .media-body h5 {
-		font-size: 20px;
-	}
-
-	.navbar-brand {    display: flex;
-		justify-content: center;
-		left: 0;
-		right: 0;
-		position: relative;}
-
-		.abt-icons {
-			top: 33%;
-		}
-
-
-}
-
-@media(max-width:640px) {
-
-	.grid h5 {
-		font-size: 35px;
-	}
-
-	.contact-blk {
-		    display: flex;
-		justify-content: center;
-		left: 0;
-		right: 0;
-		position: relative;}
-	
-		.contact-blk {display:block !important;}
-
-	.team-slider, .owl-item {}
-	.team .owl-carousel img {
-		max-width: 100%;
-	}
-
-
-	slick-dotted.slick-slider {
-		margin-bottom: 40% !important;
-	}
-	
-}
-
-
-@media(max-width:515px) {
-
-	.grid h5 {
-		font-size: 35px;
-	}
-
-	.about-txt{min-height: 750px;}
-	.abt-icons .media-body h5 {
-		font-size: 18px;
-	}
-
-	
-}
-
-
-
-@media(max-width:480px){
-
-	.contact-blk {
-		display: inline-block;
-		position: relative;
-		left: 0px;
-	}
-
-	.abt-icons {
-		
-		top: 40%;
-	}
-
-
-}
-
-
-@media(max-width:420px){
-
-	.contact-blk {
-		display: inline-block;
-		position: relative;
-		left: 0px;
-	}
-
-	.about-txt {
-		min-height: 850px;
-	}
-
-
-	.grid h5 {
-		font-size: 26px;
-	}
-
-}
-
-
-@media(max-width:380px){
-
-
-	.abt-icons span.material-icons {    font-size: 10px; width: 35px; height: 35px;}
-
-	.contact-blk {
-		display: inline-block;
-		position: relative;
-		left: 0px;
-	}
-
-
-	.contact-blk{margin-top: 12px;margin-bottom: 12px !important;}
-
-	.abt-text h4{font-size: 18px;}
-
-	.abt-icons {
-		
-		top: 35%;
-	}
-
-	.about-txt {
-		min-height: 750px;
-	}
-
-
-	.grid h5 {
-		font-size: 20px;
-	}
-
-	.services {margin-top:0px; padding-top:40%;}
-
-
-	.slick-dotted.slick-slider {
-		margin-bottom: 45% !important;
-	}
-
-	.contact-blk .media {
-		padding-left: 50px;
-	}
-.abt-text {padding:40px;}
-
-}
-
+  </body>
+</html>
