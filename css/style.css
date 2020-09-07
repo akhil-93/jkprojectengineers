@@ -225,11 +225,11 @@ i.large {font-size: 43px;}
     position: absolute;
 	top: 60px;}
 
-.features .title h4{font-weight: bold;
+.features .title h4 {font-weight: bold;
     font-family: 'Philosopher', sans-serif;
     font-size: 36px;}
 
-.about-content-text p {font-family: 'Bai Jamjuree', sans-serif; font-size:15px; line-height:22px;}
+.about-content-text p {font-family: 'Bai Jamjuree', sans-serif; font-size:15px; line-height:24px;}
 	
 .abt-icons .media { display:inline-flex; margin-right: 45px;  padding-bottom:18px;}	
 
