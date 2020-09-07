@@ -237,7 +237,9 @@ i.large {font-size: 43px;}
 .owl-theme .owl-nav {display:none;}
 
 
-.team-details p {font-size: 13px !important;}
+.team-details p {font-size: 13px !important; text-align: left;}
+
+.team-details h6 {font-size: 14px !important; text-align: left; line-height: 23px;}
 
 
 .abt-icons span.material-icons {background: #fff;
@@ -312,11 +314,11 @@ i.large {font-size: 43px;}
 
 .grid p {color:#1F1F1F; margin-top: 15px; font-size: 14px; text-align: justify;  font-weight: 500;   font-family: 'Bai Jamjuree', sans-serif;}
 
-.team-details {text-align:center; padding:15px; }
+.team-details {text-align:center; padding:15px; width: 300px;}
 
 
-.team-details h4 {color:#15144F;     
-    padding-top: 13px; font-size: 18px; font-weight: 600; font-family: 'Kanit', sans-serif;}
+.team-details h4 {color:#15144F;text-align: left;    
+    padding-top: 13px; font-size: 24px; font-weight: 600; font-family: 'Kanit', sans-serif;}
 
 .feature-grid {padding-top: 6%; background:#d8d4ff; padding-bottom:5%;}
 
@@ -334,8 +336,18 @@ i.large {font-size: 43px;}
 
 .owl-carousel.owl-drag .owl-item {width:360x; margin-right: 0px;}
 
-.our-work, .owl-carousel.owl-drag, .owl-item {/*background:rgb(0,0,0,0.8);*/ border:2px solid #fff}
+.our-work, .owl-carousel.owl-drag, .owl-item {/*background:rgb(0,0,0,0.8);*/ border:2px solid #fff; }
 
+.our-work, .owl-carousel {
+    padding: 0px;
+    text-align: -webkit-left !important;
+}
+
+/*.our-work .title h4, p {}*/
+.our-work .title p {padding-top: 15px; color:#fff;}
+.our-work .title h4{font-weight: bold; color:#fff;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 36px; padding-bottom: 35px;}
 
 .gallery .section-title {padding-top:43px;padding-bottom: 10px; color: #fff; text-align: center; float: left;
     max-width: initial;
@@ -455,16 +467,16 @@ i.large {font-size: 43px;}
 
   
 
-  .about-banner {background:url('../img/abt-bnr.png'); min-height: 280px; background-size: cover; background-repeat: no-repeat;}
+  .inner-banner {background:url('../img/abt-bnr.png'); min-height: 280px; background-size: cover; background-repeat: no-repeat;}
 
-  .about-banner h5 {padding-top: 36%;
+  .inner-banner h4 {padding-top: 36%;  font-size: 36px; font-family: 'Kanit', sans-serif;
     color: #fff;}
 
-	.about-banner li {color:#fff; padding-top: 26%;  display: inline-block;}
+	.inner-banner li {color:#fff; padding-top: 26%;  display: inline-block;}
 
-	.about-banner li a {text-decoration: none; color:#fff; }
+	.inner-banner li a {text-decoration: none; color:#fff; }
 
-	.features {padding-top:10%}
+	.features {padding-top:8%}
 
 
 	.features {background: url('../img/dotline.png');
@@ -475,14 +487,45 @@ i.large {font-size: 43px;}
 	}
 
 
-	.about-section {min-height:800px; 
+	.about-block {min-height:800px; 
 		background:url('../img/abt-us.png');
 		 background-size:cover; 
 		background-repeat: no-repeat;}
 
 
-		.about-section p {}
+		.about-section p {font-family: 'Bai Jamjuree', sans-serif;}
 
+		.about-content p {    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+    text-transform: capitalize !important;
+    line-height: 26px;
+    font-weight: 500;
+        padding-top: 18px
+}
+
+
+
+.contact-txt h4 {color:#fff; font-size: 36px; font-family: 'Kanit', sans-serif;}
+
+
+.work-icon img {width: 80px !important;}
+
+.works-block h5 {color: #fff;}
+.works-block p {color: #fff; text-align: left;  font-size: 13px; background: #4e4e4e; padding: 20px;}
+
+.work-details h5 {font-family: 'Kanit', sans-serif; font-size: 30px; color:#fff; padding-top: 18px;}
+
+.work-details p {font-family: 'Bai Jamjuree', sans-serif; color:#fff;}
+
+.about-block .title{padding-top: 35px;}
+
+.about-block-text {margin-bottom: 18px;}
+.about-block-image {margin-bottom: 18px;}
+
+.work-details h5 {color:#fff; font-size: 28px; }
+
+		.about-block h4 {    font-weight: bold; font-family: 'Philosopher', sans-serif;
+    font-size: 36px;}
 
 
 		.our-work {min-height:360px; padding-top:35px;padding-bottom:35px;font-family: 'Bai Jamjuree', sans-serif;  background:url('../img/ourwork.jpg'); background-size:cover; background-repeat: no-repeat; background-position: left;}
@@ -491,6 +534,50 @@ i.large {font-size: 43px;}
 
 .tank img {height:203px;}
 .duct img {height:211px;}
+
+.about-work-blk{
+		background:url('../img/team-abt.png');
+		min-height:800px; 
+		 background-size:cover; 
+		background-repeat: no-repeat;
+	padding-top: 80px;
+padding-bottom: 80px;}
+
+
+.about-work-blk .title h4 {font-weight: bold;
+ font-family: 'Philosopher', sans-serif;   font-size: 36px;
+}
+
+.about-work-blk .team-details h4 {font-size: 20px; font-family: 'Kanit', sans-serif;}
+
+.contact-section{min-height: 150px; background:#fd7e14; padding-top: 35px; color: #fff;}
+
+.contact-btn {text-align: right;}
+
+
+.team-blk img {    width: 280px;}
+
+.team-blk {max-width: 300px;
+    margin: 34px;
+    background: #fff;
+}
+
+.works-block {background: none;}
+.work-slider {background: none;}
+
+.work-slider .owl-item {border: 2px solid #fff; background-color: rgb(0,0,0,0.6) !important;}
+
+.btn-contact {background-color:#15144F; padding: 8px 20px; color: #fff; margin-top: 25px;   font-weight: 600;  font-family: 'Bai Jamjuree', sans-serif;   margin-bottom: 63px; font-size: 14px; border-radius: 50px; border:none;}
+
+.feat h5 {font-weight: 600; padding-top: 16px;padding-bottom: 40px; text-align: center;  font-family: 'Bai Jamjuree', sans-serif; }
+
+
+.inner-banner-title {text-align: left;}
+
+.inner-banner-back {text-align: right;}
+
+.gallery-section {background: url('../img/glrybg.png'); min-height: 700px; background-repeat: no-repeat;}
+
 
 /* Media Queries */
 
@@ -532,6 +619,7 @@ i.large {font-size: 43px;}
 
 @media (max-width:1199px ){
 
+.contact-txt h4 {font-size:30px;}
 	.team .owl-carousel {max-width:900px;}
 
 	.grid h5 {font-size:20px;}
@@ -636,6 +724,11 @@ i.large {font-size: 43px;}
 
 
 @media(max-width:991px){
+
+	.inner-banner {    padding-top: 5%;}
+
+
+	.feat h5 {font-size: 25px;}
 	
 .duct img {
     height: auto;
@@ -730,10 +823,39 @@ top:10%;
 
 .navbar-expand-lg .navbar-nav {text-align: center;}
 
+.navbar-nav li {padding-left: 0px;}
+
+.team-blk {max-width: none;
+    margin-bottom: 20px;
+    padding: 0px;
+    text-align: -webkit-center;
+    margin-left: 0px;
+    margin-right: 0px
+}
+
+
+.contact-btn {text-align: left;}
+
+
+.contact-txt h4 {font-size: 40px;}
+
+.contact-txt p {font-size: 20px; font-family: 'Bai Jamjuree', sans-serif;}
+
+
+
 }
 
 
 @media(max-width:767px){
+
+
+.inner-banner-back {text-align: left;}
+
+.inner-banner h4 {padding-top: 16%;}
+
+.inner-banner li {padding-top: 3%;}
+
+	.contact-btn{text-align: left;}
 
 .quote {margin-bottom:15px;}
 .navbar-nav li {text-align:center}
