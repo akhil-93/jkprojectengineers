@@ -10,6 +10,9 @@
 
     <link rel="stylesheet" href="css/style.css">
 
+    <link type="text/css" rel="stylesheet" href="path_to/simplePagination.css"/>
+
+
     <link rel="stylesheet" href="css/owl.carousel.min.css">
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
@@ -157,10 +160,10 @@
         <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">ABOUT</a>
+        <a class="nav-link" href="about.html">ABOUT</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="#">GALLERY</a>
+        <a class="nav-link" href="gallery.html">GALLERY</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">MEDIA</a>
@@ -199,7 +202,7 @@
 
 
    <li>Home</li>
-   <li>/<a href="about.html">About us</a></li>
+   <li>/<a href="about.html"><strong>About us</strong></a></li>
 
 
   </div>
@@ -713,28 +716,30 @@ Resource Development <br>
 
 </div>
 
-</div>
+
+
+
+
+
+
 
 </div>
+
+
+
+
+
+</div>
+
+
+
+
+
 
 </section>
 
 
-<div data-down="fade-down" data-aos-duration="2100" class="footer-end">
-<div class="container">
 
-<p>© Copyright JKProject Engineers 2020. All right reserved.
-
-</p>
-
-
-
-</div>
-
-
-
-
-</div>
 
 
 
@@ -766,7 +771,7 @@ Resource Development <br>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-
+<script type="text/javascript" src="path_to/jquery.simplePagination.js"></script>
 
 
 <script>
@@ -807,6 +812,23 @@ Resource Development <br>
 
 
 </script>
+
+
+
+<script type="text/javascript">
+  
+$(function() {
+    $(selector).pagination({
+        items: 100,
+        itemsOnPage: 10,
+        cssStyle: 'light-theme'
+    });
+})
+
+
+
+</script>
+
 
 
 
@@ -925,6 +947,8 @@ $('#main-slider').slick({
 
 
 </script>
+
+
 
 
 
