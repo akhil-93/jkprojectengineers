@@ -67,7 +67,7 @@ width: 100% !important;
 
 .name {color:#FF8C22;}
 
-.navbar-light .navbar-nav .active>.nav-link {color:#ccc;}
+.navbar-light .navbar-nav .active>.nav-link {color:#7472f2;}
 
 .navbar {background-color: rgb(0,0,0,0.8); text-transform: uppercase; display: flex;
     justify-content: center; left:0; right:0; position: absolute; width: 100%; font-family: 'Lato', sans-serif; font-weight: 300; padding-left:60px; padding-right:60px;}
@@ -455,13 +455,13 @@ i.large {font-size: 43px;}
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #15144F;
+  background-color: rgba(20, 19, 78, 0.92);
   overflow: hidden;
   width: 0;
   height: 100%;
   transition: .5s ease;
-   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.8);
+  opacity: 0.5; 
+   
 }
 
 
@@ -493,7 +493,7 @@ i.large {font-size: 43px;}
 
   
 
-  .inner-banner {background:url('../img/abt-bnr.png'); min-height: 280px; background-size: cover; background-repeat: no-repeat;}
+  .inner-banner {background:url('../img/glry-bnr.png'); min-height: 280px; background-size: cover; background-repeat: no-repeat;}
 
   .inner-banner h4 {padding-top: 36%;  font-size: 36px; font-family: 'Kanit', sans-serif;
     color: #fff;}
@@ -553,6 +553,10 @@ i.large {font-size: 43px;}
 		.about-block h4 {    font-weight: bold; font-family: 'Philosopher', sans-serif;
     font-size: 36px;}
 
+    .gallery-section h4 { padding-top: 40px;padding-bottom: 10px; font-weight: bold; font-family: 'Philosopher', sans-serif; text-align: center;
+    font-size: 36px;}
+
+.gallery-section p {padding-bottom: 35px;color:#404040; font-family: 'Bai Jamjuree', sans-serif; text-align: center;}
 
 		.our-work {min-height:360px; padding-top:35px;padding-bottom:35px;font-family: 'Bai Jamjuree', sans-serif;  background:url('../img/ourwork.jpg'); background-size:cover; background-repeat: no-repeat; background-position: left;}
 
@@ -576,7 +580,7 @@ padding-bottom: 80px;}
 
 .about-work-blk .team-details h4 {font-size: 20px; font-family: 'Kanit', sans-serif;}
 
-.contact-section{min-height: 150px; background:#fd7e14; padding-top: 35px; color: #fff;}
+.contact-section{min-height: 150px; background:#3b3584; padding-top: 35px; color: #fff;}
 
 .contact-btn {text-align: right;}
 
@@ -602,8 +606,41 @@ padding-bottom: 80px;}
 
 .inner-banner-back {text-align: right;}
 
-.gallery-section {background: url('../img/glrybg.png'); min-height: 700px; background-repeat: no-repeat;}
+.gallery-section {background: url('../img/glrybg.png'); min-height: 700px; background-position: center; background-size: cover; background-repeat: no-repeat;}
 
+#page-navi li a {
+    border-radius: 30px !important;
+    width: 40px;
+    height: 40px;
+    color: #000 !important;
+    border: none !important;
+}
+
+
+#page-navi li a.current, #page-navi li a:hover {
+    background: #15144F !important;
+    color: #fff !important;
+    border-bottom: 3px solid #fff;
+}
+
+
+#page-navi li a.disable {
+    background: none !important;
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.jquery-tab-pager-tabbar{transition: .30s ease !important;}
+
+
+#page-navi {
+    
+    text-align: center !important;
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+    display: flex;
+    justify-content: center;
+}
 
 /* Media Queries */
 
