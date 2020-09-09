@@ -118,7 +118,7 @@ a.get-quote {text-decoration:none;}
 .video-wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
+	padding-top: 15px;
 	height: 0;
 }
 .video-wrapper iframe {
@@ -129,6 +129,8 @@ a.get-quote {text-decoration:none;}
 	height: 100%;
 
 }
+
+.video-wrapper video {object-fit: fill;}
 
 
 
