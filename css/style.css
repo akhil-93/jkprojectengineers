@@ -37,9 +37,12 @@ body{list-style: none;
 		ul {list-style: none;}
 
 
+
+
+
 img {width:100%;}
 
-a{color:#fff;}
+
 
 *{ 
 
@@ -118,7 +121,7 @@ a.get-quote {text-decoration:none;}
 .video-wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 0px;
+	padding-top: 25px;
 	height: 0;
 }
 .video-wrapper iframe {
@@ -129,8 +132,6 @@ a.get-quote {text-decoration:none;}
 	height: 100%;
 
 }
-
-.video-wrapper video {object-fit: fill;}
 
 
 
@@ -226,12 +227,6 @@ i.large {font-size: 43px;}
 .about-text-blk {    display: flex;font-family: 'Lato', sans-serif;
     position: absolute;
 	top: 60px;}
-
-.features .title h4 {font-weight: bold;
-    font-family: 'Philosopher', sans-serif;
-    font-size: 36px;}
-
-.about-content-text p {font-family: 'Bai Jamjuree', sans-serif; font-size:15px; line-height:24px;}
 	
 .abt-icons .media { display:inline-flex; margin-right: 45px;  padding-bottom:18px;}	
 
@@ -441,25 +436,48 @@ i.large {font-size: 43px;}
     width: 12px;
 }
   
-.overlay {
-	position: absolute; 
-	bottom: 0; 
-	background: rgb(0, 0, 0);
-	background: rgba(0, 0, 0, 0.5); /* Black see-through */
-	color: #f1f1f1; 
-	width: 100%;
-	transition: .5s ease;
-	opacity:0;
-	color: white;
-	font-size: 20px;
-	padding-top: 110%;
-	height: 100%;
-	text-align: center;
-  }
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
   
   .glry:hover .overlay {
 	opacity: 1;
+	width:100%;
   }
+
+
+  .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #15144F;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+   background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+.glry .text strong{font-size: 13px;}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
 
 
   /* latest Changes */
@@ -484,7 +502,7 @@ i.large {font-size: 43px;}
 
 	.inner-banner li a {text-decoration: none; color:#fff; }
 
-	.features {padding-top:8%}
+	.features {padding-top:6%}
 
 
 	.features {background: url('../img/dotline.png');
