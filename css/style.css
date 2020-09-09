@@ -948,6 +948,8 @@ top:10%;
 .video-wrapper {padding-top: 0px;}
 
 
+#page-navi {width: 100% !important;}
+
 }
 
 @media(max-width:640px) {
