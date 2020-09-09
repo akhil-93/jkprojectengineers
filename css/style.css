@@ -615,6 +615,7 @@ padding-bottom: 80px;}
     height: 40px;
     color: #000 !important;
     border: none !important;
+    background: none !important;
 }
 
 
@@ -641,6 +642,7 @@ padding-bottom: 80px;}
     margin-bottom: 30px !important;
     display: flex;
     justify-content: center;
+    background: none !important;
 }
 
 /* Media Queries */
