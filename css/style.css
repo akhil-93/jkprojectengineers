@@ -75,7 +75,7 @@ object-fit: cover;
 
 .navbar-expand-lg .navbar-nav {}
 
-.navbar-brand img {width:145px;}
+.navbar-brand img {width:110px;}
 
 .navbar-brand {margin-right:82%;}
 
@@ -940,6 +940,9 @@ top:10%;
 		left: 0;
 		right: 0;
 		position: relative;}
+
+    .navbar-brand img {width:145px;}
+
 
 		.abt-icons {
 			top: 33%;
