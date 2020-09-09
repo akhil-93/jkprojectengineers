@@ -118,7 +118,7 @@ a.get-quote {text-decoration:none;}
 .video-wrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 15px;
+	padding-top: 0px;
 	height: 0;
 }
 .video-wrapper iframe {
