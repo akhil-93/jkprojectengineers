@@ -1070,7 +1070,7 @@ top:10%;
 }
 
 	.abt-icons {
-		padding:30px;
+		padding:30px !important;
 		top: 40%;
 	}
 
