@@ -865,7 +865,7 @@ padding-bottom: 80px;}
 			background-size: cover;
 		}
 
-	.about-txt p {font-size:16px; line-height:22pxl}
+	.about-txt p {font-size:16px; line-height:22px;}
 
 		.contact-blk p {max-width:150px;}
 
@@ -949,7 +949,7 @@ top:10%;
 
 
 		.abt-icons {
-			top: 33%;
+			top: 40%;
 		}
 
 .video-wrapper {padding-top: 0px;}
