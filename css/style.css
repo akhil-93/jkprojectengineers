@@ -328,7 +328,7 @@ i.large {font-size: 43px;}
 
 .about-us {margin-top: 6%; overflow:hidden;}
 
-.know-btn {background-color: #8a8aff;   font-family: 'Bai Jamjuree', sans-serif; font-weight: 600; padding: 8px 18px; font-size: 13px; margin-left:16px; margin-top: 20px; color: #15144f; border-radius: 50px; border:none; }
+.know-btn {background-color: #8a8aff;   font-family: 'Bai Jamjuree', sans-serif; font-weight: 600; padding: 8px 18px; font-size: 13px; margin-left:0px; margin-top: 20px; color: #15144f; border-radius: 50px; border:none; }
 
 /* .service-blk {} */
 
