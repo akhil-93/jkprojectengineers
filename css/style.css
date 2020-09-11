@@ -917,6 +917,8 @@ top:10%;
 
 @media(max-width:767px){
 	
+	.about-txt p {font-size:15px;}	
+	
 .knw-btn-blk {margin-top:35px;}	
 
 .inner-banner-back {text-align: left;}
