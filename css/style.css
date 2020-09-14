@@ -68,7 +68,7 @@ object-fit: cover;
 
 .name {color:#FF8C22;}
 
-.navbar-light .navbar-nav .active>.nav-link {color:#7472f2 !important;}
+.navbar-light .navbar-nav .active>.nav-link {color:#7472f2;}
 
 .navbar {background-color: rgb(0,0,0,0.8); text-transform: uppercase; display: flex;
     justify-content: center; left:0; right:0; position: absolute; width: 100%; font-family: 'Lato', sans-serif; font-weight: 300; padding-left:60px; padding-right:60px;}
@@ -485,7 +485,7 @@ i.large {font-size: 43px;}
 
   /* latest Changes */
 
-/*   .navbar-nav .active{color:#FF8C22;} */
+  .navbar-nav .active{color:#FF8C22;}
 
   .owl-theme .owl-dots .owl-dot.active span, {background:none;}
 
@@ -495,6 +495,22 @@ i.large {font-size: 43px;}
   margin: 0 auto;}
 
   
+  .about-banner {background:url('../img/glry-bnr.png'); min-height: 280px; background-size: cover; background-repeat: no-repeat;}
+
+
+ .about-banner h4 {padding-top: 36%;  font-size: 36px; font-family: 'Kanit', sans-serif;
+    color: #fff;}
+
+  .about-banner li {color:#fff; padding-top: 26%;  display: inline-block;}
+
+  .about-banner li a {text-decoration: none; color:#fff; }
+
+
+
+
+
+
+
 
   .inner-banner {background:url('../img/glry-bnr.png'); min-height: 280px; background-size: cover; background-repeat: no-repeat;}
 
