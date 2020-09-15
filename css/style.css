@@ -224,6 +224,9 @@ i.large {font-size: 43px;}
 
 .about-txt p {padding-bottom:35px ; font-family: 'Bai Jamjuree', sans-serif; color:#fff; font-weight: 100; line-height: 25px; font-size: 14px;}
 
+
+
+
 .about-txt img {padding-top: 12px; min-height: 55%;
  height: 92%;}
 
@@ -505,7 +508,9 @@ i.large {font-size: 43px;}
 
   .about-banner li a {text-decoration: none; color:#fff; }
 
+.about-banner-title {text-align: left;}
 
+.about-banner-back {text-align: right;}
 
 
 
