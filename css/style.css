@@ -515,6 +515,17 @@ i.large {font-size: 43px;}
 
 
 
+  .media-banner {background:url('../img/media-bnr.png'); min-height: 280px; background-size: cover; background-repeat: no-repeat;}
+
+
+
+.media-banner h4 {padding-top: 36%;  font-size: 36px; font-family: 'Kanit', sans-serif;
+    color: #fff;}
+
+  .media-banner li {color:#fff; padding-top: 26%;  display: inline-block;}
+
+  .media-banner li a {text-decoration: none; color:#fff; }
+
 
 
   .inner-banner {background:url('../img/glry-bnr.png'); min-height: 280px; background-size: cover; background-repeat: no-repeat;}
@@ -584,7 +595,14 @@ i.large {font-size: 43px;}
     .gallery-section h4 { padding-top: 40px;padding-bottom: 10px; font-weight: bold; font-family: 'Philosopher', sans-serif; text-align: center;
     font-size: 36px;}
 
+    .media-section h4 { padding-top: 40px;padding-bottom: 10px; font-weight: bold; font-family: 'Philosopher', sans-serif; text-align: center;
+    font-size: 36px;}
+
 .gallery-section p {padding-bottom: 35px;color:#404040; font-family: 'Bai Jamjuree', sans-serif; text-align: center;}
+
+.media-section p {padding-bottom: 35px;color:#404040; font-family: 'Bai Jamjuree', sans-serif; text-align: center;}
+
+
 
     .our-work {min-height:360px; padding-top:35px;padding-bottom:35px;font-family: 'Bai Jamjuree', sans-serif;  background:url('../img/ourwork.jpg'); background-size:cover; background-repeat: no-repeat; background-position: left;}
 
@@ -630,11 +648,21 @@ padding-bottom: 80px;}
 .feat h5 {font-weight: 600; padding-top: 16px;padding-bottom: 40px; text-align: center;  font-family: 'Bai Jamjuree', sans-serif; }
 
 
+.media-banner-title {text-align: left;}
+
+
 .inner-banner-title {text-align: left;}
 
 .inner-banner-back {text-align: right;}
 
+.media-banner-back {text-align: right;}
+
+
 .gallery-section {background: url('../img/glrybg.png'); min-height: 700px; background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.media-section {background: url('../img/media-bg.png'); min-height: 700px; background-position: top; background-size: cover; background-repeat: no-repeat;}
+
+
 
 #page-navi li a {
     border-radius: 30px !important;
@@ -671,6 +699,12 @@ padding-bottom: 80px;}
     justify-content: center;
     background: none !important;
 }
+
+
+.gallery-block {padding-top: 90px !important;}
+
+.media-block {padding-top: 90px !important;}
+
 
 /* Media Queries */
 
@@ -965,6 +999,8 @@ top:10%;
   .abt-icons .media-body h5 {
     font-size: 20px;
   }
+
+
 
   .navbar-brand {    display: flex;
     justify-content: center;
