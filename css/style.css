@@ -982,9 +982,15 @@ top:10%;
 
 .inner-banner-back {text-align: left;}
 
-.inner-banner h4 {padding-top: 16%;}
+.media-banner-back {text-align: left;}
 
-.inner-banner li {padding-top: 3%;}
+.media-banner li {padding-top: 4%;}
+
+.media-banner h4 {padding-top: 20%;}
+
+.inner-banner h4 {padding-top: 20%;}
+
+.inner-banner li {padding-top: 4%;}
 
   .contact-btn{text-align: left;}
 
@@ -1008,7 +1014,7 @@ top:10%;
     right: 0;
     position: relative;}
 
-    .navbar-brand img {width:145px;}
+    .navbar-brand img {width:155px;}
 
 
     .abt-icons {
