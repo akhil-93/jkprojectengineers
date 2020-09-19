@@ -663,6 +663,8 @@ padding-bottom: 80px;}
 .media-section {background: url('../img/media-bg.png'); min-height: 700px; background-position: top; background-size: cover; background-repeat: no-repeat;}
 
 
+.video-block {margin-bottom: 30px;}
+
 
 #page-navi li a {
     border-radius: 30px !important;
