@@ -1061,7 +1061,7 @@ top:10%;
 
 .video-wrapper {padding-top: 0px;}
 
-.contact-box .contact-blk {display: block;}
+.contact-box .contact-blk {display: block !important;}
 
 .contact-box .contact-blk .media {margin-bottom: 20px;}
 
