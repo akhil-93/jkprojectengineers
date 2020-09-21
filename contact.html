@@ -533,6 +533,10 @@ e.preventDefault();
 
  $('.alert').css("display","block"); 
 
+$('#contact').trigger('reset');
+
+form.classList.add('was-validated');
+
 
 setTimeout(function(){
 
@@ -541,8 +545,6 @@ setTimeout(function(){
 }, 5000);
 
 
-$('#contact').trigger('reset');
-        form.classList.add('was-validated');
 
           
         }
