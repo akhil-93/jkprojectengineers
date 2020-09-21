@@ -1103,7 +1103,7 @@ video {height:300px;}
   }
 
 
-  video {height:200px;}
+  video {height:280px;}
 
 
   slick-dotted.slick-slider {
@@ -1169,7 +1169,7 @@ video {height:300px;}
 @media(max-width:380px){
 
 
-video {height:250px;}
+video {height:150px;}
 
   .abt-icons span.material-icons {   font-size: 18px;
     width: 35px;
