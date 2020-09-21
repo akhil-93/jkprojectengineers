@@ -1160,7 +1160,7 @@ top:10%;
 }
 
 
-.media-banner-title h4 {padding-top: 30%;}
+.media-banner-title h4 {padding-top: 30% !important;}
 
   .contact-blk {
     display: inline-block;
