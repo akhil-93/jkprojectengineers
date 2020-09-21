@@ -381,7 +381,7 @@ i.large {font-size: 43px;}
 
 .view-btn {background-color:#8a8aff; padding: 8px 20px; color: #15144f; margin-top: 25px;   font-weight: 600;  font-family: 'Bai Jamjuree', sans-serif;   margin-bottom: 63px; font-size: 14px; border-radius: 50px; border:none;}
 
-.video-sec {padding-top: 40px; background: url(../img/mediabg.png); background-position: left; background-repeat: no-repeat;}
+.video-sec {padding-top: 40px; background: url(../img/mediabg.png); background-position: left; background-repeat: no-repeat; margin-bottom:13%;}
 
 
 .navbar-light .navbar-toggler-icon {background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}
@@ -396,7 +396,7 @@ i.large {font-size: 43px;}
   background-color:#15144f !important; border-radius: 50px !important;
 } 
 
-.footer {background: url(../img/foot-bg.png); padding-top: 50px; margin-top: 50px; background-repeat: no-repeat; background-position: left; color: #fff; background-size: cover; min-height: 300px;}
+.footer {background: url(../img/foot-bg.png); padding-top: 50px; margin-top: 50px; background-repeat: no-repeat; background-position: left; color: #fff; background-size: cover; min-height: 250px;}
 
 .footer-links ul {padding:0px;  font-family: 'Bai Jamjuree', sans-serif;}
 
@@ -648,7 +648,7 @@ padding-bottom: 80px;}
 
 .contact-section{min-height: 150px; background:#3b3584; padding-top: 35px; color: #fff;}
 
-.contact-btn {text-align: right;}
+.contact-btn {text-align: right; margin-top: 25px;}
 
 
 .team-blk img {    width: 280px;}
@@ -663,7 +663,7 @@ padding-bottom: 80px;}
 
 .work-slider .owl-item {border: 2px solid #fff; background-color: rgb(0,0,0,0.6) !important;}
 
-.btn-contact {background-color:#15144F; padding: 8px 20px; color: #fff; margin-top: 25px;   font-weight: 600;  font-family: 'Bai Jamjuree', sans-serif;   margin-bottom: 63px; font-size: 14px; border-radius: 50px; border:none;}
+.btn-contact {background-color:#15144F; padding: 12px 25px; color: #fff; margin-top: 25px;   font-weight: 600;  font-family: 'Bai Jamjuree', sans-serif;   margin-bottom: 63px; font-size: 13px; border-radius: 50px; border:none;}
 
 .feat h5 {font-weight: 600; padding-top: 16px;padding-bottom: 40px; text-align: center;  font-family: 'Bai Jamjuree', sans-serif; }
 
@@ -721,9 +721,10 @@ padding-bottom: 80px;}
     
     text-align: center !important;
     margin-top: 20px !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 0px !important;
     display: flex;
     justify-content: center;
+        padding-bottom: 50px;
     background: none !important;
 }
 
