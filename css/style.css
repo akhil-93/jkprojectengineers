@@ -1015,6 +1015,8 @@ top:10%;
 
 .video-sec {padding-top:90px;}
 
+video {height:300px;}
+
 }
 
 
@@ -1082,9 +1084,9 @@ top:10%;
 
 @media(max-width:640px) {
 
-  .grid h5 {
+  /*.grid h5 {
     font-size: 35px;
-  }
+  }*/
 
   .contact-blk {
         display: flex;
@@ -1099,6 +1101,9 @@ top:10%;
   .team .owl-carousel img {
     max-width: 100%;
   }
+
+
+  video {height:200px;}
 
 
   slick-dotted.slick-slider {
@@ -1163,6 +1168,8 @@ top:10%;
 
 @media(max-width:380px){
 
+
+video {height:250px;}
 
   .abt-icons span.material-icons {   font-size: 18px;
     width: 35px;
