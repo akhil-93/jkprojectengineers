@@ -535,6 +535,13 @@ i.large {font-size: 43px;}
 .media-banner h4 {padding-top: 36%;  font-size: 36px; font-family: 'Kanit', sans-serif;
     color: #fff;}
 
+    .media-banner-title h4 {padding-top: 36%;  font-size: 36px; font-family: 'Kanit', sans-serif;
+    color: #fff;}
+
+.media-banner-back li {padding-top: 26%;  font-size: 18px; display: inline-block;
+    color: #fff;}
+
+
   .media-banner li {color:#fff; padding-top: 26%;  display: inline-block;}
 
   .media-banner li a {text-decoration: none; color:#fff; }
@@ -1012,7 +1019,12 @@ top:10%;
 
 .media-banner li {padding-top: 4%;}
 
+.media-banner-back li {padding-top: 4%;}
+
 .media-banner h4 {padding-top: 20%;}
+
+.media-banner-title h4 {padding-top: 20%;}
+
 
 .inner-banner h4 {padding-top: 20%;}
 
