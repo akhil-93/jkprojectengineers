@@ -804,7 +804,7 @@ padding-bottom: 80px;}
 
    .main-slider {
     left: 115%;
-    top: -115%;
+    top: -85%;
    }
 
   .main-slider .slick-dots {
@@ -831,6 +831,9 @@ padding-bottom: 80px;}
     padding-top: 5px;
   
 }
+
+
+.video-sec { margin-bottom: :0%; }
   
   
 
