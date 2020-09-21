@@ -323,7 +323,7 @@ i.large {font-size: 43px;}
   background-size: cover;
   min-height: 775px;
   padding-top:35px;
-      padding: 66px 18px;
+      padding: 8px 18px;
 
 
 }
@@ -894,6 +894,8 @@ padding-bottom: 80px;}
 @media(max-width:991px){
 
   .inner-banner {    padding-top: 5%;}
+
+  .gallery {padding: 66px 18px;}
 
 
   .feat h5 {font-size: 25px;}
