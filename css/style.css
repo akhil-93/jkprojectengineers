@@ -81,6 +81,17 @@ object-fit: cover;
 
 .contact-blk .media {padding-left: 32px;}
 
+.contact-box .contact-blk {justify-content: center;}
+
+.contact-box {margin-top: 80px;}
+
+.contact-details {margin-bottom: 30px;}
+
+.contact-form {background: #fff;padding: 25px;}
+
+.contact-box .contact-blk .media { border: 2px solid #ccc; margin:0px 8px;  border-radius: 15px;   padding-right: 49px;
+    padding-left: 15px; padding-top: 20px;}  
+
 .contact-blk {display: inline-block; margin-top: 20px; justify-content: flex-end; margin-bottom: 0px;  font-family: 'Lato', sans-serif; }
 
 .contact-blk h5 { font-weight: 600; color:#15144F;font-size: 16px;font-family: 'Kanit', sans-serif;
@@ -512,12 +523,14 @@ i.large {font-size: 43px;}
 
 .about-banner-back {text-align: right;}
 
-
+.contact-map {margin-top: 30px;}
 
 
   .media-banner {background:url('../img/media-bnr.png'); min-height: 280px; background-size: cover; background-repeat: no-repeat;}
 
+  .contact-banner {background:url('../img/cnt-bnr.png'); min-height: 280px; background-size: cover; background-repeat: no-repeat;}
 
+.contact-block{background:url('../img/cnt-bg.png'); min-height: 480px; background-size: cover; background-repeat: no-repeat;}
 
 .media-banner h4 {padding-top: 36%;  font-size: 36px; font-family: 'Kanit', sans-serif;
     color: #fff;}
@@ -651,6 +664,8 @@ padding-bottom: 80px;}
 .media-banner-title {text-align: left;}
 
 
+
+
 .glry-view-btn {margin-bottom: 60px;}
 
 
@@ -709,6 +724,12 @@ padding-bottom: 80px;}
 .gallery-block {padding-top: 90px !important;}
 
 .media-block {padding-top: 90px !important;}
+
+
+.alert{display: none;}
+
+.cnt-btn {background: #3b3584; width: 100%;  color:#fff; border:none; font-weight: bold; font-size: 16px; text-transform: capitalize;  padding-top: 5px;
+    line-height: 40px;}
 
 
 /* Media Queries */
