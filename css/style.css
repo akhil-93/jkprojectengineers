@@ -1103,7 +1103,7 @@ video {height:300px;}
   }
 
 
-  video {height:280px;}
+  .main-slider video {height:280px;}
 
 
   slick-dotted.slick-slider {
@@ -1169,7 +1169,7 @@ video {height:300px;}
 @media(max-width:380px){
 
 
-video {height:150px;}
+.main-slider video {height:180px;}
 
   .abt-icons span.material-icons {   font-size: 18px;
     width: 35px;
@@ -1211,7 +1211,7 @@ video {height:150px;}
 
 
   .grid h5 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .services {margin-top:0px; padding-top:40%;}
