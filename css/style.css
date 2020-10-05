@@ -1157,6 +1157,9 @@ video {height:300px;}
 
 @media(max-width:480px){
 
+
+.slick-prev, .slick-next {display:none;}
+
   .contact-blk {
     display: inline-block;
     position: relative;
