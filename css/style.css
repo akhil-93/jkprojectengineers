@@ -119,8 +119,34 @@ a.get-quote {background: #696969; padding: 8px 35px; color: #fff; font-weight: 6
     /* right: 0; */
     /* margin-left: auto; */
     left:36%;}
+
+
+.main-slide {
+    display: flex;width: 100%;
+    max-width: 1920px;
+    min-height: 260px;
+    padding: 0px;}
+
+
+
+
 /* 
 .main-slider .slick-slider {} */
+
+
+.slick-next {
+    right: 50px !important;
+}
+
+.slick-prev {
+    left: 25px !important;
+}
+
+.slick-prev, .slick-next {z-index: 99;}
+
+.slick-prev:before, .slick-next:before {color:#fff !important; padding: 12px; font-size: 20px; background: #3b3584;}
+
+.embed-responsive::before {display: none;}
 
 a.get-quote {text-decoration:none;}
 
