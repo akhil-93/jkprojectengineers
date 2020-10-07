@@ -347,7 +347,7 @@ i.large {font-size: 43px;}
 
 .gallery {background-image: url('../img/glry-bg.png');
   background-size: cover;
-  min-height: 775px;
+  min-height: 705px;
   padding-top:35px;
       padding: 8px 18px;
 
@@ -361,6 +361,10 @@ i.large {font-size: 43px;}
 .grid p {color:#1F1F1F; margin-top: 15px; font-size: 14px; text-align: justify;  font-weight: 500;   font-family: 'Bai Jamjuree', sans-serif;}
 
 .team-details {text-align:center; padding:15px; width: 300px;}
+
+.team-slider .team-details {
+      padding: 0px;
+ }
 
 
 .team-details h4 {color:#15144F;text-align: left;    
@@ -388,6 +392,10 @@ i.large {font-size: 43px;}
     padding: 0px;
     text-align: -webkit-left !important;
 }
+
+
+
+.video-block .video-name h4 {font-size: 15px; background: #fff; margin-top:0px; padding: 6px; font-family: 'Bai Jamjuree';line-height: 24px;}
 
 /*.our-work .title h4, p {}*/
 .our-work .title p {padding-top: 15px; color:#fff;}
@@ -439,7 +447,7 @@ i.large {font-size: 43px;}
 
 .team-slider{}
 
-.team-slider, .owl-item { background:#fff; padding: 15px;}
+.team-slider, .owl-item { background:#fff; padding: 0px; max-width: 300px; margin: 30px}
 
 .team-slider, .owl-carousel {padding:0px;  text-align: -webkit-center;}
 .our-work, .owl-carousel.owl-drag, .owl-item {border:none;}
