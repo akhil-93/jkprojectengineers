@@ -445,9 +445,9 @@ i.large {font-size: 43px;}
 
 .footer h5 {font-family: 'Kanit', sans-serif; }
 
-.team-slider{}
+.team-slider{max-width: 300px; margin: 30px}
 
-.team-slider, .owl-item { background:#fff; padding: 0px; margin: 30px}
+.team-slider, .owl-item { background:#fff; padding: 0px;}
 
 .team-slider, .owl-carousel {padding:0px;  text-align: -webkit-center;}
 .our-work, .owl-carousel.owl-drag, .owl-item {border:none;}
