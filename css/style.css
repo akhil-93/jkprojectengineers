@@ -445,7 +445,7 @@ i.large {font-size: 43px;}
 
 .footer h5 {font-family: 'Kanit', sans-serif; }
 
-.team-slider{max-width: 300px; margin: 30px}
+.team-slider {max-width: 300px; margin: 30px}
 
 .team-slider, .owl-item { background:#fff; padding: 0px;}
 
@@ -1172,7 +1172,7 @@ video {height:300px;}
     .slick-prev:before, .slick-next:before {font-size: 12px !important; padding: 10px !important;}
 
 .slick-prev, .slick-next {display:none; position: absolute;
-    top: 30% !important;}
+    top: 33% !important;}
 
   .contact-blk {
     display: inline-block;
