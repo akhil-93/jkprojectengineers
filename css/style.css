@@ -447,7 +447,7 @@ i.large {font-size: 43px;}
 
 .team-slider{}
 
-.team-slider, .owl-item { background:#fff; padding: 0px; max-width: 300px; margin: 30px}
+.team-slider, .owl-item { background:#fff; padding: 0px; margin: 30px}
 
 .team-slider, .owl-carousel {padding:0px;  text-align: -webkit-center;}
 .our-work, .owl-carousel.owl-drag, .owl-item {border:none;}
