@@ -1172,7 +1172,7 @@ video {height:300px;}
 .slick-prev:before, .slick-next:before {font-size: 12px !important; padding: 10px !important;}
 
 .slick-prev, .slick-next {display:none; position: absolute;
-    top: 53% !important;}
+    top: 55% !important;}
 
 .contact-blk {
     display: inline-block;
