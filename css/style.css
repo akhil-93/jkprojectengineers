@@ -156,6 +156,23 @@ a.get-quote {text-decoration:none;}
 
 .video-txt p {color:#000000; width:500px; font-family: 'Bai Jamjuree', sans-serif;}
 
+.video-wrapper .text h3 {font-size: 40px; padding: 15px; font-family: 'Philosopher', sans-serif;}
+
+.video-wrapper .text {
+  background: #000;
+  opacity: .7;
+  font-size: 40px;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -1058,7 +1075,9 @@ video {height:300px;}
 
 
 @media(max-width:767px){
-  
+
+  .video-wrapper .text h3 {font-size: 25px;} 
+
   .about-txt p {font-size:15px;}  
   
 .knw-btn-blk {margin-top:35px;} 
@@ -1169,6 +1188,8 @@ video {height:300px;}
 @media(max-width:480px){
 
 
+.video-wrapper .text h3 {font-size: 16px;}
+
 .slick-prev:before, .slick-next:before {font-size: 12px !important; padding: 10px !important;}
 
 .slick-prev, .slick-next {display:none; position: absolute;
@@ -1190,6 +1211,8 @@ video {height:300px;}
 
 
 @media(max-width:420px){
+
+  .video-wrapper .text h3 {font-size: 14px;}
 
   .contact-blk {
     display: inline-block;
